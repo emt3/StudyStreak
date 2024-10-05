@@ -1,0 +1,56 @@
+table{
+    color: #1c1d21;
+    background-color: white; 
+    font-size: 20px;
+    font-style: inherit;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    /*border-collapse: separate;*/
+    font-family: Helvetica;
+
+}
+
+h1{
+    color: #1c1d21;
+    background-color: #BB9BB0;
+    font-size: 30px;
+    font-style: inherit;
+    text-align: center; /* Center the header */
+    border-collapse: collapse;
+    margin: 0;
+    margin-top: 0;
+    padding: 20px;
+    font-family: Helvetica;
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+    background-color: white; 
+    font-family: Helvetica;
+}
+
+td {
+    padding: 10px;
+    text-align: top;
+    vertical-align: middle;
+    border-color: #1c1d21;
+    border-style: solid;
+    font-family: Helvetica;
+}
+
+th{
+    padding: 20px;
+    text-align: left;
+    /*border-left: 1px solid #1c1d21;*/
+    border-color: #1c1d21;
+    border-style: solid;
+    font-family: Helvetica;
+}
+
+
+
+
+
+
+
