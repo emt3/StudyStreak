@@ -1,0 +1,98 @@
+/* style applied to entire document */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    padding: 10px;
+    background-color: #F1E3E4;
+}
+
+/* style the header */
+.header{
+    background-color: #BB9BB0;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+/* navigation bar container */
+.topnav{
+    overflow: hidden;
+    background-color: #1C1D21;
+}
+
+/* navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #CCBCBC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* links will chnage color on hover */
+.topnav a:hover {
+    background-color: #F1E3E4;
+    color: #1C1D21;
+}
+
+/* create 2 equal columns that floast next to each other */
+.column {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+/* clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* responsive layout - if a screen size shrinks, make the columns stack on top of eachother */
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
+}
+
+.button {
+    background-color: #BB9BB0;
+    color: #1C1D21;
+    border: 1.5px solid #1C1D21;
+    border-radius: 12px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 14px 40px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #1C1D21;
+    color:#CCBCBC;
+}
+
+.achievementsTable {
+
+    width: 50%;
+    
+}
