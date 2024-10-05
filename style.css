@@ -1,0 +1,21 @@
+.header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/* navigation bar container */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dashed;
+}
