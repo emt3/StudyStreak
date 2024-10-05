@@ -8,7 +8,7 @@ Key Features:
 - Leaderboard for weekly achievements and earned badges
 - Build a streak to capture progress
 - Work-towards prizes by collecting badges
-- Potential: Calendar feautres, reminders?
+- Potential: Calendar features, reminders?
 
 User-Interface:
 - Personalized website to promote consistent study habits
