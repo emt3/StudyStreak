@@ -23,3 +23,8 @@ User-Interface:
     - Organised by priority (dealine)
   
   
+-Pages:
+    -Home
+    -Task tracker 
+    -leaderboard (weekly progress) and streaks
+    -achievements
