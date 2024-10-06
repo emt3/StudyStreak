@@ -77,10 +77,10 @@ body {
     border-radius: 12px;
 
     text-align: center;
-    text-decoration: none;
+    text-decoration:solid;
     display: inline-block;
-    font-size: 20px;
-    padding: 14px 40px;
+    font-size: 15px;
+    padding: 12px 25px;
 
     transition-duration: 0.4s;
     cursor: pointer;
@@ -91,7 +91,23 @@ body {
     color:#F1E3E4;
 }
 
-.pointsToAchievements{
+#pointsToAchievements {
     width: 100%;
     font-weight: lighter;
+    font-size: 15px;
+    border: 2px solid #ddd; 
 }
+
+#pointsToAchievements th{
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #EAF5F6E2;
+}
+
+#pointsToAchievements td, #pointsToAchievements tr{
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: left;
+}
+
