@@ -6,12 +6,12 @@
 body {
     font-family: Helvetica;
     padding: 10px;
-    background-color: #F1E3E4;
+    background-color: white;
 }
 
 /* style the header */
 .header{
-    background-color: #BB9BB0;
+    background-color: #F1E3E4;
     text-align: center;
     padding: 20px;
 }
@@ -37,7 +37,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #CCBCBC;
+    color: #F1E3E4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -71,7 +71,7 @@ body {
 }
 
 .button {
-    background-color: #BB9BB0;
+    background-color: #EAF5F6E2;
     color: #1C1D21;
     border: 1.5px solid #1C1D21;
     border-radius: 12px;
@@ -88,12 +88,10 @@ body {
 
 .button:hover{
     background-color: #1C1D21;
-    color:#CCBCBC;
+    color:#F1E3E4;
 }
 
 .pointsToAchievements{
-
-    width: 50%;
-    
-
+    width: 100%;
+    font-weight: lighter;
 }

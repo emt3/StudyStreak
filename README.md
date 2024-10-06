@@ -8,7 +8,7 @@ Key Features:
 - Leaderboard for weekly achievements and earned badges
 - Build a streak to capture progress
 - Work-towards prizes by collecting badges
-- Potential: Calendar features, reminders?
+- Potential: Calendar features, reminders, hydration break, caffine tracker 
 
 User-Interface:
 - Personalized website to promote consistent study habits
@@ -22,9 +22,8 @@ User-Interface:
     - Each task has the following properties: progress, category/topic, course, deadlines, additonal notes
     - Organised by priority (dealine)
   
-  
 -Pages:
     -Home
     -Task tracker 
-    -leaderboard (weekly progress) and streaks
-    -achievements
+    -Leaderboard (weekly progress) and streaks
+    -Achievements
