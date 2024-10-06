@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 table{
     color: #1c1d21;
     background-color: white; 
@@ -11,23 +15,26 @@ table{
 
 }
 
+/* old header
 h1{
     color: #1c1d21;
     background-color: #F1E3E4;
     font-size: 30px;
     font-style: inherit;
-    text-align: center; /* Center the header */
+    text-align: center; 
     border-collapse: collapse;
     margin: 0;
     margin-top: 0;
     padding: 20px;
     font-family: Helvetica;
 }
+*/
 
 body {
     margin: 0; /* Remove default body margin */
     background-color: white; 
-    font-family: Helvetica;
+    font-family: Helvetica;;
+    padding:15px;
 }
 
 td {
@@ -46,4 +53,45 @@ th{
     border-color: #1c1d21;
     border-style: solid;
     font-family: Helvetica;
+}
+
+/*styles for the header and the naviagtion bar*/
+/* style the header */
+.header{
+    background-color: #F1E3E4;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+/* navigation bar container */
+.topnav{
+    overflow: hidden;
+    background-color: #1C1D21;
+}
+
+/* navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #F1E3E4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* links will chnage color on hover */
+.topnav a:hover {
+    background-color: #F1E3E4;
+    color: #1C1D21;
 }
