@@ -7,12 +7,40 @@
     <link rel="stylesheet" href="./TaskTrackerStyle.css">
 </head>
 
+
+
+<!-- <script src="./tasktracker.js"></script> -->
+
 <body>
 
-    <!--
-        display of tasks, rows, tables, list
-        name, course, due date, topic, short description/add your own note
-        -->
+    <form>
+        <div class = "input row">
+            <label for="Course">Course</label>
+            <input type="Course" name="Course" id="Course">
+        </div>
+
+        <div class = "input row">
+            <label for="Task">Task</label>
+            <input type="Task" name="Task" id="Task">
+        </div>
+
+        <div class = "input row">
+            <label for="Due Date">Due Date</label>
+            <input type="Due Date" name="Due Date" id="Due Date">
+        </div>
+
+        <div class = "input row">
+            <label for="Notes">Notes</label>
+            <input type="Notes" name="Notes" id="Notes">
+        </div>
+
+
+
+        <button type="submit">Add Task</button>
+
+    </form>
+
+    
     <div >
         <h1>Task Tracker</h1>
     </div>
@@ -24,8 +52,8 @@
                 <th>Course</th>
                 <th>Task</th>
                 <th>Due Date</th>
-                <th>Completion Status</th>
                 <th>Notes</th>
+                <th>Complete?</th>
               </tr>
 
         </thead>
@@ -49,6 +77,50 @@
             <td>Mexico</td>
           </tr>
     </table>
+
+<script>
+
+    const formEl = document.querySelector('form');
+
+    const tbodyEl = document.querySelector('tbody');
+
+    const tableEl = document.querySelector('table');
+
+    function addRow(e){
+    e.preventDefault();
+    //alert("this works");
+    const course = document.getElementById('Course').value;
+    const task = document.getElementById('Task').value;
+    const due_date = document.getElementById('Due Date').value;
+    //const completion_status = document.getElementById('Completion Status').value;
+    const notes = document.getElementById('Notes').value;
+    //alert(course+task+due_date+completion_status+notes);
+    tbodyEl.innerHTML += `
+    <tr>
+        <td>${course}</td>
+        <td>${task}</td>
+        <td>${due_date}</td>
+         
+        <td>${notes}</td>
+        <td><button class = "deleteBtn">Yes</button></td>
+    </tr>
+    `
+}
+
+
+    function deleteRow(e){
+        if (!e.target.classList.contains('deleteBtn')){
+            return;  
+        }
+        const btn = e.target;
+        btn.closest('tr').remove();
+    }
+
+    formEl.addEventListener("submit", addRow);
+    tableEl.addEventListener('click', deleteRow);
+</script>
+
+
 
     
 </body>
